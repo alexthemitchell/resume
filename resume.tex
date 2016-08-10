@@ -1,0 +1,90 @@
+\documentclass[11pt]{article} %Sets the default text size to 11pt and class to article.
+\usepackage[T1]{fontenc} % Allow display of pipe character
+\usepackage{xcolor} % Colors
+\usepackage{hyperref} % Hyperlinks
+\usepackage{enumitem} % Reduce space between list items
+%------------------------Dimensions--------------------------------------------
+\topmargin=0.0in %length of margin at the top of the page (1 inch added by default)
+\oddsidemargin=0.0in %length of margin on sides for odd pages
+\evensidemargin=0in %length of margin on sides for even pages
+\textwidth=7in %How wide you want your text to be
+\marginparwidth=0.5in
+\headheight=0pt %1in margins at top and bottom (1 inch is added to this value by default)
+\headsep=0pt %Increase to increase white space in between headers and the top of the page
+\textheight=9.0in %How tall the text body is allowed to be on each page
+\pagenumbering{gobble} % Remove page numbers
+%------------Confguration
+\definecolor{headerColor}{HTML}{94232D}
+
+\begin{document}
+  \centerline{\LARGE \bfseries Alex Mitchell}
+  \centerline{\textcolor{headerColor}{\rule{7in}{0.5mm}}}
+  \centerline{1829 Hobart Street, Grinnell, IA | alex@alexthemitchell.com | 641.990.2558}
+  \centerline{\underline{\smash{\href{http://alexthemitchell.com}{alexthemitchell.com}}} | \underline{\smash{\href{http://github.com/alexthemitchell}{github.com/alexthemitchell}}} | \underline{\smash{\href{http://twitter.com/alexthemitchell}{@alexthemitchell}}}}
+  \bigskip
+
+  {\noindent \Large \bfseries EDUCATION}\\
+  {\bfseries Grinnell College, Grinnell, IA \hfill Expected May 2017}\\
+  \emph{Bachelor of Arts in Computer Science}\\
+  Computer Science GPA: 3.934\\
+  Overall GPA: 3.423\\
+  %Advisor: John D Stone\\
+  \bigskip
+
+  {\noindent \Large \bfseries EXPERIENCE}\\
+  {\bfseries Nest Labs \hfill May 2016 - Present}\\
+  \emph{iOS Apps Engineer Intern}
+  \begin{itemize}[noitemsep,leftmargin=*,topsep=0pt]
+    \item Architect and implement custom UIAlertView focused on modular construction
+    \item Create build tool to load saved app states quickly and easily
+  \end{itemize}
+          \smallskip
+
+  {\noindent \bfseries Grinnell College AppDev \hfill Jan 2014 - Present}\\
+  \emph{Director of Engineering: iOS}
+  \begin{itemize}[noitemsep,leftmargin=*,topsep=0pt]
+    \item Manage and support student-only team of six iOS engineers
+    \item Teach class of five future engineers Objective-C and iOS best practices
+    \item Prioritize and assign development work for five launched iOS applications
+    \item Collaborate with design team to execute launch of new realtime publication app
+  \end{itemize}
+  \smallskip
+
+  {\noindent \bfseries Shopwave Ltd. \hfill Sep 2015 - Dec 2015}\\
+  \emph{iOS Framework Engineering Intern}
+  \begin{itemize}[noitemsep,leftmargin=*,topsep=0pt]
+    \item Designed, implemented, and documented Swift SDK for interacting with Shopwave's Connect API
+    \item Created and optimized mobile stocktaking app which integrates seamlessly in the Shopwave ecosystem
+    \item Collaborated with server team to diagnose and isolate critical API bugs
+  \end{itemize}
+  \smallskip
+
+  {\noindent \bfseries Google Inc. \hfill May 2015 - Aug 2015}\\
+  \emph{Engineering Practicum Intern: iOS Developer Infrastructure}
+  \begin{itemize}[noitemsep,leftmargin=*,topsep=0pt]
+    \item Lead Collaboration to Architect and Implement Smartlock for Passwords iOS Prototype
+    \item Created iOS 8 App Extension to provide secure first party user authentication for third party apps
+    \item Produced over 4500 lines of peer reviewed, production quality Objective-C code
+  \end{itemize}
+  \smallskip
+
+  {\noindent \bfseries Grinnell College Computer Science Research \hfill May 2014 - Aug 2014}\\
+  \emph{Lead Backend Engineer}
+  \begin{itemize}[noitemsep,leftmargin=*,topsep=0pt]
+    \item Designed and implemented Node.js API and relational database for the MIST online learning tool
+    \item Presented Poster (44.1\% acceptance rate) and Demo (31.3\% acceptance rate) at SIGCSE 2015
+  \end{itemize}
+  \bigskip
+
+  {\noindent \Large \bfseries SKILLS}\\
+  \begin{center}
+    \begin{tabular}{c c c c}
+      \bfseries{iOS}    & \bfseries{BACKEND}  & \bfseries{BUILD TOOLS}  & \bfseries{OTHER}\\
+      Objective-C       & Node.js             & Git                     & Linux/UNIX \\
+      Swift             & SQL                 & Travis CI               & C \\
+      Xcode Unit Tests  & Java                & Github Issues           & Javascript \\
+      Cocoapods         & PHP                 & JIRA                    & Arabic
+                        &                     &                         & \LaTeX
+    \end{tabular}
+  \end{center}
+\end{document}
